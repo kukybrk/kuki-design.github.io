@@ -1,43 +1,74 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kuki Design | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuki Design</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Kuki Design</h1>
-    <p>Création graphique & design digital</p>
+    <nav class="navbar">
+      <div class="logo">Kuki Design</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#creations">Our Creations</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section class="about">
-    <h2>À propos</h2>
-    <p>
-      Kuki Design est un studio créatif spécialisé dans la conception de visuels modernes,
-      d’illustrations et de designs pour vêtements. Nous créons des œuvres uniques adaptées
-      aux marques et aux artistes souhaitant se démarquer.
-    </p>
-  </section>
-
-  <section class="gallery">
-    <h2>Nos créations</h2>
-    <div class="grid">
-      <img src="https://via.placeholder.com/300" alt="Design 1">
-      <img src="https://via.placeholder.com/300" alt="Design 2">
-      <img src="https://via.placeholder.com/300" alt="Design 3">
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to <span>Kuki Design</span></h1>
+      <p>We bring your ideas to life with modern, elegant, and creative design.</p>
+      <a href="#creations" class="btn">Discover Our Work</a>
     </div>
   </section>
 
-  <section class="contact">
+  <section id="creations">
+    <h2>Our Creations</h2>
+    <p class="intro">Explore our unique and inspiring design projects.</p>
+
+    <div class="gallery">
+      <div class="card">
+        <img src="images/poster-minimalist.jpg" alt="Minimalist Poster">
+        <h3>Minimalist Poster</h3>
+        <p>A soft and balanced design inspired by calm and simplicity.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/logo-floral.jpg" alt="Floral Logo">
+        <h3>Floral Logo</h3>
+        <p>A nature-inspired logo that represents elegance and purity.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/packaging-rose.jpg" alt="Rose Packaging">
+        <h3>Rose Packaging</h3>
+        <p>Modern and minimal pink-toned packaging designed for soft aesthetics.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p class="about-text">
+      Kuki Design is a creative studio dedicated to delivering unique visual identities,
+      branding, and digital art. Our goal is to transform simple ideas into beautiful
+      experiences through the power of design.
+    </p>
+  </section>
+
+  <section id="contact">
     <h2>Contact</h2>
-    <p>Email : <a href="mailto:contact.kuki@gmail.com">contact.kuki@gmail.com</a></p>
-    <p>Instagram : <a href="https://instagram.com/kuki.design" target="_blank">@kuki.design</a></p>
+    <p>Let's collaborate on your next project!</p>
+    <a href="mailto:contact@kukidesign.com" class="btn">Send us an email</a>
   </section>
 
   <footer>
-    <p>© 2025 Kuki Design. Tous droits réservés.</p>
+    <p>© 2025 Kuki Design | All Rights Reserved</p>
   </footer>
 </body>
 </html>
