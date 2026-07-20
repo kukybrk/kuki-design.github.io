@@ -151,3 +151,39 @@ footer {
   border-top: 1px solid #ffd6e9;
   color: #777;
 }
+.collections{
+padding:80px 10%;
+background:#fff7fb;
+text-align:center;
+}
+
+.collection-grid{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.collection{
+background:white;
+padding:30px;
+border-radius:20px;
+width:280px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.collection:hover{
+transform:translateY(-8px);
+}
+
+.collection h3{
+color:#d63384;
+margin-bottom:15px;
+}
+
+.collection p{
+color:#555;
+line-height:1.6;
+}
