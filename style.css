@@ -187,3 +187,41 @@ margin-bottom:15px;
 color:#555;
 line-height:1.6;
 }
+/* WHY SECTION */
+
+.why{
+padding:80px 10%;
+background:#ffffff;
+text-align:center;
+}
+
+.why-grid{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+margin-top:40px;
+}
+
+.why-card{
+width:300px;
+padding:30px;
+background:#fff5fa;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.why-card:hover{
+transform:translateY(-8px);
+}
+
+.why-card h3{
+color:#d63384;
+margin-bottom:15px;
+}
+
+.why-card p{
+color:#555;
+line-height:1.6;
+}
