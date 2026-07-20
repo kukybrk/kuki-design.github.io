@@ -123,9 +123,24 @@ ul{
 
 }
 
+.logo-box{
+
+    display:flex;
+    
+    align-items:center;
+
+    height:82px;
+
+}
+
+
 .logo-box img{
 
-    width:170px;
+    width:75px;
+
+    height:75px;
+
+    object-fit:contain;
 
 }
 
@@ -1429,13 +1444,14 @@ footer{
         height:75px;
 
     }
+   .logo-box img{
 
+    width:60px;
 
-    .logo-box img{
+    height:60px;
 
-        width:130px;
-
-    }
+}
+   
 
 
     .nav-btn{
