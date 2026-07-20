@@ -1,130 +1,711 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KUKUYET</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUKUYET | Creative Design Studio</title>
+
+    <meta name="description" content="Original Graphic Designs, Typography, Print-on-Demand Artwork and Creative Illustrations by KUKUYET.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
 
-  <!-- ===== HEADER ===== -->
-  <header class="header">
-    <nav class="navbar">
-      <img src="logo.png" alt="KUKUYET Logo" class="logo">
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#designs">Designs</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<!-- ===================== NAVBAR ===================== -->
 
-  <!-- ===== HERO SECTION ===== -->
-  <section id="home" class="hero">
-    <img src="hero.jpg" alt="Hero Background" class="hero-bg">
-    <div class="hero-text">
-      <h1>Welcome to <span>KUKUYET</span></h1>
-      <p>Original Graphic Designs • Print-on-Demand Artwork • Creative Illustrations</p>
-      <a href="#designs" class="btn">Explore Portfolio</a>
+<header class="header">
 
+    <div class="container">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo-box">
+
+                <img src="logo.png" alt="KUKUYET Logo">
+
+            </a>
+
+            <ul class="nav-menu">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#collections">Collections</a></li>
+
+                <li><a href="#designs">Portfolio</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#why">Why Us</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <a href="#designs" class="nav-btn">
+                View Portfolio
+            </a>
+
+            <div class="menu-toggle">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </nav>
 
     </div>
-  </section>
-  <section class="collections">
 
-<h2>Featured Collections</h2>
+</header>
+
+<!-- ===================== HERO ===================== -->
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <img src="hero.jpg" class="hero-image" alt="Creative Background">
+
+    <div class="hero-content container" data-aos="fade-up">
+
+        <span class="hero-tag">
+            ORIGINAL CREATIVE DESIGN STUDIO
+        </span>
+
+        <h1>
+
+            Creative Designs
+            <br>
+
+            For Modern Brands
+            <span> & Print-on-Demand</span>
+
+        </h1>
+
+        <p>
+
+            KUKUYET creates premium graphic designs, typography,
+            illustrations and trend-driven artwork for apparel,
+            digital products and print-on-demand businesses.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#designs" class="btn-primary">
+
+                Explore Designs
+
+            </a>
+
+            <a href="#about" class="btn-secondary">
+
+                Learn More
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-scroll">
+
+        <a href="#collections">
+
+            <i class="fa-solid fa-angle-down"></i>
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ===================== FEATURED COLLECTIONS ===================== -->
+
+<section class="collections" id="collections">
+
+<div class="container">
+
+<div class="section-title" data-aos="fade-up">
+
+<span>OUR COLLECTIONS</span>
+
+<h2>Designed For Every Passion</h2>
+
+<p>
+
+Unique artwork crafted with originality,
+attention to detail and today's design trends.
+
+</p>
+
+</div>
 
 <div class="collection-grid">
 
-<div class="collection">
+<div class="collection-card" data-aos="fade-up">
+
+<div class="collection-icon">
+
+<i class="fa-solid fa-paw"></i>
+
+</div>
+
 <h3>Funny Animals</h3>
-<p>Creative animal illustrations designed for apparel and gifts.</p>
+
+<p>
+
+Cute, funny and expressive animal illustrations
+perfect for apparel and gifts.
+
+</p>
+
 </div>
 
-<div class="collection">
+<div class="collection-card"
+data-aos="fade-up"
+data-aos-delay="150">
+
+<div class="collection-icon">
+
+<i class="fa-solid fa-font"></i>
+
+</div>
+
 <h3>Typography</h3>
-<p>Bold quotes and vintage-inspired lettering with modern aesthetics.</p>
+
+<p>
+
+Modern lettering,
+retro typography,
+funny quotes and inspirational sayings.
+
+</p>
+
 </div>
 
-<div class="collection">
+<div class="collection-card"
+data-aos="fade-up"
+data-aos-delay="300">
+
+<div class="collection-icon">
+
+<i class="fa-solid fa-gift"></i>
+
+</div>
+
 <h3>Seasonal Designs</h3>
-<p>Halloween, Christmas, birthdays, teachers, holidays, and more.</p>
+
+<p>
+
+Halloween,
+Christmas,
+Teachers,
+Birthdays,
+Sports,
+Travel and more.
+
+</p>
+
+</div>
+
 </div>
 
 </div>
 
 </section>
 
-  <!-- ===== DESIGNS SECTION ===== -->
-  <section id="designs" class="designs">
-    <h2>My Design Projects</h2>
-    <div class="design-gallery">
-      <div class="design-card">
-        <img src="design1.png" alt="Design Project 1">
-        <p>Funny Animal Collection</p>
-      </div>
-      <div class="design-card">
-        <img src="design2.png" alt="Design Project 2">
-        <p>Typography Collection</p>
-      </div>
-      <div class="design-card">
-        <img src="packaging1.jpg" alt="Packaging Design">
-        <p>Print-on-Demand Collection</p>
-      </div>
+<!-- ========= CONTINUE WITH PARTIE B ========= -->
+  <!-- ===================== PORTFOLIO ===================== -->
+
+<section class="designs" id="designs">
+
+    <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+
+            <span>OUR PORTFOLIO</span>
+
+            <h2>Featured Design Collection</h2>
+
+            <p>
+                A selection of original graphic designs created for
+                print-on-demand products, apparel and digital marketplaces.
+            </p>
+
+        </div>
+
+        <div class="design-gallery">
+
+            <!-- Design 01 -->
+            <div class="design-card" data-aos="zoom-in">
+                <div class="design-image">
+                    <img src="design01.png" alt="Design 01">
+                </div>
+
+                <div class="design-content">
+                    <span class="category">Funny Animals</span>
+                    <h3>Original Illustration</h3>
+                    <p>Creative animal artwork designed for modern apparel.</p>
+                </div>
+            </div>
+
+            <!-- Design 02 -->
+            <div class="design-card" data-aos="zoom-in" data-aos-delay="80">
+                <div class="design-image">
+                    <img src="design02.png" alt="Design 02">
+                </div>
+
+                <div class="design-content">
+                    <span class="category">Horse Collection</span>
+                    <h3>Horse Design</h3>
+                    <p>Premium illustration with a clean vintage-inspired style.</p>
+                </div>
+            </div>
+
+            <!-- Design 03 -->
+            <div class="design-card" data-aos="zoom-in" data-aos-delay="160">
+                <div class="design-image">
+                    <img src="design03.png" alt="Design 03">
+                </div>
+
+                <div class="design-content">
+                    <span class="category">Typography</span>
+                    <h3>Creative Quote</h3>
+                    <p>Bold lettering created for apparel and gifts.</p>
+                </div>
+            </div>
+
+            <!-- Design 04 -->
+            <div class="design-card" data-aos="zoom-in">
+                <div class="design-image">
+                    <img src="design04.png" alt="Design 04">
+                </div>
+
+                <div class="design-content">
+                    <span class="category">Seasonal</span>
+                    <h3>Holiday Artwork</h3>
+                    <p>Festive graphics perfect for seasonal collections.</p>
+                </div>
+            </div>
+
+            <!-- Design 05 -->
+            <div class="design-card" data-aos="zoom-in" data-aos-delay="80">
+                <div class="design-image">
+                    <img src="design05.png" alt="Design 05">
+                </div>
+
+                <div class="design-content">
+                    <span class="category">Lifestyle</span>
+                    <h3>Modern Graphic</h3>
+                    <p>Minimal artwork with premium visual balance.</p>
+                </div>
+            </div>
+
+            <!-- Design 06 -->
+            <div class="design-card" data-aos="zoom-in" data-aos-delay="160">
+                <div class="design-image">
+                    <img src="design06.png" alt="Design 06">
+                </div>
+
+                <div class="design-content">
+                    <span class="category">Vintage</span>
+                    <h3>Retro Collection</h3>
+                    <p>Classic textures combined with modern composition.</p>
+                </div>
+            </div>
+
+            <!-- Design 07 -->
+            <div class="design-card" data-aos="zoom-in">
+                <div class="design-image">
+                    <img src="design07.png" alt="Design 07">
+                </div>
+
+                <div class="design-content">
+                    <span class="category">Nature</span>
+                    <h3>Creative Illustration</h3>
+                    <p>Clean artwork inspired by nature and outdoor life.</p>
+                </div>
+            </div>
+
+            <!-- Design 08 -->
+            <div class="design-card" data-aos="zoom-in" data-aos-delay="80">
+                <div class="design-image">
+                    <img src="design08.png" alt="Design 08">
+                </div>
+
+                <div class="design-content">
+                    <span class="category">Animals</span>
+                    <h3>Premium Artwork</h3>
+                    <p>Fun illustrations suitable for all audiences.</p>
+                </div>
+            </div>
+
+            <!-- Design 09 -->
+            <div class="design-card" data-aos="zoom-in" data-aos-delay="160">
+                <div class="design-image">
+                    <img src="design09.png" alt="Design 09">
+                </div>
+
+                <div class="design-content">
+                    <span class="category">Quotes</span>
+                    <h3>Typography Design</h3>
+                    <p>Unique phrases combined with creative illustration.</p>
+                </div>
+            </div>
+
+            <!-- Design 10 -->
+            <div class="design-card" data-aos="zoom-in">
+                <div class="design-image">
+                    <img src="design10.png" alt="Design 10">
+                </div>
+
+                <div class="design-content">
+                    <span class="category">Print On Demand</span>
+                    <h3>Commercial Design</h3>
+                    <p>Professional artwork ready for multiple products.</p>
+                </div>
+            </div>
+
+            <!-- Design 11 -->
+            <div class="design-card" data-aos="zoom-in" data-aos-delay="80">
+                <div class="design-image">
+                    <img src="design11.png" alt="Design 11">
+                </div>
+
+                <div class="design-content">
+                    <span class="category">Illustration</span>
+                    <h3>Creative Concept</h3>
+                    <p>Original design crafted with attention to detail.</p>
+                </div>
+            </div>
+
+            <!-- Design 12 -->
+            <div class="design-card" data-aos="zoom-in" data-aos-delay="160">
+                <div class="design-image">
+                    <img src="design12.png" alt="Design 12">
+                </div>
+
+                <div class="design-content">
+                    <span class="category">Best Seller</span>
+                    <h3>Signature Artwork</h3>
+                    <p>One of our favorite premium creative illustrations.</p>
+                </div>
+            </div>
+
+        </div>
+
     </div>
-  </section>
-
-  <!-- ===== ABOUT SECTION ===== -->
-  <section id="about" class="about">
-    <h2>About KUKUYET</h2>
-    <p>
-      KUKUYET is an independent creative brand specializing in original graphic design, typography, illustrations, and print-on-demand artwork.
-      Our mission is to create unique, high-quality designs inspired by creativity, humor, lifestyle, animals, seasonal events, and modern trends. Every design is crafted with originality and attention to detail. </p>
-  </section>
-  <section class="why">
-
-<h2>Why Choose KUKUYET?</h2>
-
-<div class="why-grid">
-
-<div class="why-card">
-<h3>100% Original Designs</h3>
-<p>Every artwork is created with originality and attention to detail.</p>
-</div>
-
-<div class="why-card">
-<h3>Trend Research</h3>
-<p>Our designs are inspired by current trends, holidays, hobbies, and everyday life.</p>
-</div>
-
-<div class="why-card">
-<h3>Quality First</h3>
-<p>We focus on creating clean, professional, and high-quality artwork for print-on-demand products.</p>
-</div>
-
-</div>
 
 </section>
 
-  <!-- ===== CONTACT SECTION ===== -->
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <p>Feel free to reach out for collaborations or inquiries.</p>
-    <a href="mailto:kuki.design@email.com" class="btn">Send an Email</a>
-  </section>
+<!-- ========= CONTINUE WITH PARTIE C ========= -->
+  <!-- ===================== ABOUT ===================== -->
 
-  <!-- ===== FOOTER ===== -->
-  <footer>
+<section class="about" id="about">
 
-<h3>KUKUYET</h3>
+    <div class="container">
 
-<p>Original Graphic Design • Typography • Print-on-Demand Artwork</p>
+        <div class="about-grid">
 
-<p>© 2026 KUKUYET. All Rights Reserved.</p>
+            <div class="about-content" data-aos="fade-right">
+
+                <span class="section-subtitle">
+                    ABOUT KUKUYET
+                </span>
+
+                <h2>
+                    Original Designs
+                    Crafted With Passion
+                </h2>
+
+                <p>
+
+                    KUKUYET is an independent creative studio specializing
+                    in original graphic design, typography and premium
+                    print-on-demand artwork.
+
+                </p>
+
+                <p>
+
+                    Every illustration is created with originality,
+                    creativity and attention to detail to produce artwork
+                    that stands out across apparel, accessories and digital
+                    marketplaces.
+
+                </p>
+
+                <div class="about-stats">
+
+                    <div class="stat-box">
+                        <h3>100%</h3>
+                        <p>Original Designs</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3>12+</h3>
+                        <p>Featured Projects</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3>2026</h3>
+                        <p>Creative Portfolio</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="about-image" data-aos="fade-left">
+
+                <img src="design12.png" alt="KUKUYET Design">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===================== WHY CHOOSE US ===================== -->
+
+<section class="why" id="why">
+
+    <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+
+            <span>WHY CHOOSE US</span>
+
+            <h2>
+                Creativity Meets Quality
+            </h2>
+
+        </div>
+
+        <div class="why-grid">
+
+            <div class="why-card" data-aos="fade-up">
+
+                <i class="fa-solid fa-lightbulb"></i>
+
+                <h3>Original Ideas</h3>
+
+                <p>
+
+                    Every project starts with fresh concepts and original
+                    artwork.
+
+                </p>
+
+            </div>
+
+            <div class="why-card" data-aos="fade-up" data-aos-delay="120">
+
+                <i class="fa-solid fa-palette"></i>
+
+                <h3>Premium Quality</h3>
+
+                <p>
+
+                    High-resolution illustrations optimized for print and
+                    digital products.
+
+                </p>
+
+            </div>
+
+            <div class="why-card" data-aos="fade-up" data-aos-delay="240">
+
+                <i class="fa-solid fa-fire"></i>
+
+                <h3>Trend Driven</h3>
+
+                <p>
+
+                    Inspired by popular niches, seasonal events and
+                    evergreen markets.
+
+                </p>
+
+            </div>
+
+            <div class="why-card" data-aos="fade-up" data-aos-delay="360">
+
+                <i class="fa-solid fa-heart"></i>
+
+                <h3>Made With Passion</h3>
+
+                <p>
+
+                    Every illustration is crafted carefully to create
+                    memorable products.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===================== CONTACT ===================== -->
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="contact-box" data-aos="zoom-in">
+
+            <span>CONTACT</span>
+
+            <h2>
+                Let's Create Something Amazing
+            </h2>
+
+            <p>
+
+                Interested in collaborations, licensing or creative
+                opportunities?
+
+                We'd love to hear from you.
+
+            </p>
+
+            <a href="mailto:your@email.com" class="btn-primary">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                Contact Us
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===================== FOOTER ===================== -->
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div class="footer-logo">
+
+            <img src="logo.png" alt="KUKUYET Logo">
+
+            <p>
+
+                Original Graphic Design
+                <br>
+
+                Typography • Illustration
+                <br>
+
+                Print-on-Demand Artwork
+
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h4>Quick Links</h4>
+
+            <a href="#home">Home</a>
+
+            <a href="#collections">Collections</a>
+
+            <a href="#designs">Portfolio</a>
+
+            <a href="#about">About</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="footer-social">
+
+            <h4>Follow</h4>
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+
+            <a href="#"><i class="fab fa-etsy"></i></a>
+
+            <a href="#"><i class="fab fa-behance"></i></a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 KUKUYET — All Rights Reserved.
+
+    </div>
 
 </footer>
 
+
+
+<!-- Back To Top -->
+
+<button id="topBtn">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+
+<!-- AOS -->
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init({
+
+duration:900,
+
+once:true
+
+});
+
+</script>
+
+
+
+<!-- Main JS -->
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
